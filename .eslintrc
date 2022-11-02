@@ -1,22 +1,12 @@
 {
-  "extends": [
-		"eslint:recommended",
-	  "@nuxtjs/eslint-config-typescript",
-	  "plugin:vue/vue3-recommended",
-	  "plugin:prettier/recommended"
-  ],
+	"extends": ["eslint:recommended", "@nuxtjs/eslint-config-typescript", "plugin:vue/vue3-recommended", "plugin:prettier/recommended"],
 	"rules": {
-	  "eqeqeq": "error",
+		"eqeqeq": "error",
 		"no-console": "warn",
 		"no-tabs": "off",
-		"indent": [2, "tab"],
-	  "prettier/prettier": "error",
-	  "vue/multi-word-component-names": "off"
+		"indent": "off",
+		"prettier/prettier": "error",
+		"vue/multi-word-component-names": "off"
 	},
-	"ignorePatterns": [
-	  "node_modules",
-	  "build",
-	  "dist",
-	  "public"
-	]
+	"ignorePatterns": ["node_modules", "build", "dist", "public"]
 }
