@@ -3,9 +3,7 @@ import { defineConfig, presetIcons, presetUno, presetWebFonts, transformerVarian
 export default defineConfig({
 	presets: [
 		presetUno(),
-		presetIcons({
-			scale: 1.2
-		}),
+		presetIcons(),
 		presetWebFonts({
 			fonts: {
 				sans: {
