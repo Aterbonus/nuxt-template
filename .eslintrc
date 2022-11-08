@@ -6,7 +6,16 @@
 		"no-tabs": "off",
 		"indent": "off",
 		"prettier/prettier": "error",
-		"vue/multi-word-component-names": "off"
+		"vue/multi-word-component-names": "off",
+		"vue/html-self-closing": ["error", {
+			"html": {
+				"void": "any",
+				"normal": "always",
+				"component": "always"
+			},
+			"svg": "always",
+			"math": "always"
+		}]
 	},
 	"ignorePatterns": ["node_modules", "build", "dist", "public", ".nuxt", ".output"]
 }
