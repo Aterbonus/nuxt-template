@@ -8,7 +8,7 @@
 		"postinstall": "nuxt prepare"
 	},
 	"devDependencies": {
-		"@nuxtjs/critters": "^0.3.3",
+		"@nuxtjs/critters": "^0.4.0",
 		"@nuxtjs/eslint-config-typescript": "^11.0.0",
 		"@unocss/nuxt": "^0.45.30",
 		"@unocss/transformer-variant-group": "^0.45.30",
