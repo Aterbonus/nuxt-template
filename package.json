@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"@nuxtjs/critters": "^0.4.0",
-		"@nuxtjs/eslint-config-typescript": "^11.0.0",
+		"@nuxtjs/eslint-config-typescript": "^12.0.0",
 		"@unocss/nuxt": "^0.48.0",
 		"@unocss/transformer-variant-group": "^0.45.30",
 		"@vueuse/core": "^9.3.1",
