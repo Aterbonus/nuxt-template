@@ -4,7 +4,7 @@ specifiers:
   '@nuxtjs/critters': ^0.4.0
   '@nuxtjs/eslint-config-typescript': ^12.0.0
   '@unocss/nuxt': ^0.50.3
-  '@unocss/transformer-variant-group': ^0.50.3
+  '@unocss/transformer-variant-group': ^0.53.0
   '@vueuse/core': ^9.13.0
   '@vueuse/nuxt': ^9.13.0
   eslint: ^8.35.0
@@ -19,7 +19,7 @@ devDependencies:
   '@nuxtjs/critters': 0.4.0
   '@nuxtjs/eslint-config-typescript': 12.0.0_ycpbpc6yetojsgtrx3mwntkhsu
   '@unocss/nuxt': 0.50.3
-  '@unocss/transformer-variant-group': 0.50.3
+  '@unocss/transformer-variant-group': 0.53.0
   '@vueuse/core': 9.13.0
   '@vueuse/nuxt': 9.13.0_nuxt@3.2.3
   eslint: 8.35.0
@@ -1992,6 +1992,10 @@ packages:
     resolution: {integrity: sha512-bS9FpI7+kQ2LijNucTze7grA+HPk556ctGNUNYt/CMDkFt/+7beV0j4QQMp2g/JEZOgPtFHusHJfSNcAhkDL4Q==}
     dev: true
 
+  /@unocss/core/0.53.0:
+    resolution: {integrity: sha512-MB6hqSN2wjmm3NNYspNqzxvMv7LnyLqz0uCWr15elRqnjsuq01w7DZ1iPS9ckA2M3YjQIRTXR9YPtDbSqY0jcA==}
+    dev: true
+
   /@unocss/inspector/0.50.3:
     resolution: {integrity: sha512-LUqGxo7C1yJH60hi6GWFofSKH3pI9u0WF7YpiHi8EY7sW5/bHRKronh/N48pXdmLmFpxfnTW0ynTkC6H6YfcyA==}
     dependencies:
@@ -2123,6 +2127,12 @@ packages:
     resolution: {integrity: sha512-zkFsEcU+HkGI8rdEfwvnO4RlXKuvEGQ8mCiPGl2GvvExi4r5TTHbaQYev5xZIVfU7+2WG7hLBRDKqWREBbKtaA==}
     dependencies:
       '@unocss/core': 0.50.3
+    dev: true
+
+  /@unocss/transformer-variant-group/0.53.0:
+    resolution: {integrity: sha512-dwfjifgoa2VuO3LCl2ayRw3M5T6EfDKt16s9KbIRUcHqMJFnoHACAk8e4YsHGBvly0utbQHxFuBygOar3IfxEg==}
+    dependencies:
+      '@unocss/core': 0.53.0
     dev: true
 
   /@unocss/vite/0.50.3:
