@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"@nuxtjs/critters": "^0.4.0",
 		"@nuxtjs/eslint-config-typescript": "^12.0.0",
-		"@unocss/nuxt": "^0.50.3",
+		"@unocss/nuxt": "^0.53.0",
 		"@unocss/transformer-variant-group": "^0.50.3",
 		"@vueuse/core": "^9.13.0",
 		"@vueuse/nuxt": "^9.13.0",
