@@ -16,4 +16,4 @@ module.exports = {
 		]
 	},
 	ignorePatterns: ['node_modules', 'build', 'dist', 'public', '.nuxt', '.output']
-};
+}
