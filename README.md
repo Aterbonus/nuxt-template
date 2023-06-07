@@ -1,6 +1,13 @@
-# Nuxt 3 Minimal Starter
+# My Nuxt Template
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Features
+
+* Editorconfig config + vscode autoformat on save config
+* Linting and formatting configured
+	* Eslint + Prettier
+	* Eslint configured with rules to autoformat on save for nuxt/vue, unocss classes and prettier formatting
+* Vueuse
+* Critical CSS with Critters
 
 ## Setup
 
@@ -14,7 +21,7 @@ yarn install
 npm install
 
 # pnpm
-pnpm install --shamefully-hoist
+pnpm install
 ```
 
 ## Development Server
@@ -22,7 +29,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Production
@@ -30,13 +37,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
