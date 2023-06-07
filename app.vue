@@ -1,5 +1,5 @@
 <template>
-	<div class="min-h-screen grid place-items-center">
-		<h1 class="text-center text-8 text-indigo font-bold">Aterbonus' Nuxt Template</h1>
+	<div class="grid min-h-screen place-items-center">
+		<h1 class="text-8 font-bold">Aterbonu's Nuxt Template</h1>
 	</div>
 </template>

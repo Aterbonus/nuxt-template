@@ -5,6 +5,7 @@ export default defineNuxtConfig({
 	},
 	critters: {
 		config: {
+			// @ts-ignore
 			preload: false
 		}
 	}
