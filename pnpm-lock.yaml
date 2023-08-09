@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^0.53.1
     version: 0.53.1(postcss@8.4.24)(vite@4.3.9)(webpack@5.85.1)
   '@unocss/transformer-variant-group':
-    specifier: ^0.53.1
-    version: 0.53.1
+    specifier: ^0.55.0
+    version: 0.55.0
   '@vueuse/core':
     specifier: ^10.1.2
     version: 10.1.2(vue@3.3.4)
@@ -1370,6 +1370,10 @@ packages:
     resolution: {integrity: sha512-6CUaOMeQyoPIgMuSboX9yGywiCumhoYTPk6uMFhgD3vZmIRCZMwN9RFDLB+s2+NOlnBU6aQsJLONcUapZb/49g==}
     dev: true
 
+  /@unocss/core@0.55.0:
+    resolution: {integrity: sha512-TcTugpuhsv6OwMsP3iFIG8FVc9N5JzkojIGNAKF8I2WBftZ//3QcpEHiHc1mH3MlPYfJgUvCcT6/Gad55qmHzg==}
+    dev: true
+
   /@unocss/eslint-config@0.53.1(eslint@8.42.0)(typescript@5.1.3):
     resolution: {integrity: sha512-n1yV1Ma92GQjvnZefOE+Renm/esnEkmbk5n7fKoSifejF9fv2h+hth0aTkTGbhZfODtpK9NLayuBD72qNlFtPQ==}
     engines: {node: '>=14'}
@@ -1543,6 +1547,12 @@ packages:
     resolution: {integrity: sha512-ib4KCXcAZ0/s43Mjcz8q9vlG4eU/FF9jJiWLh0wJHXLMJpgJZ815hbU0HskJXDUQOpli6r744FpNtEDeVeOY6Q==}
     dependencies:
       '@unocss/core': 0.53.1
+    dev: true
+
+  /@unocss/transformer-variant-group@0.55.0:
+    resolution: {integrity: sha512-0VSvQpEmN8/Y+CfVMhL1+u1+FjmDFtviqKz8aaLFBapC/hnxbkAQTZRVv7mFNvBhBVUHXZOz7LASR4q9RtIeVA==}
+    dependencies:
+      '@unocss/core': 0.55.0
     dev: true
 
   /@unocss/vite@0.53.1(vite@4.3.9):
