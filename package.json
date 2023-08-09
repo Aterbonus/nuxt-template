@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"@nuxt/eslint-config": "^0.1.1",
 		"@nuxtjs/critters": "^0.4.1",
-		"@unocss/eslint-config": "^0.53.1",
+		"@unocss/eslint-config": "^0.55.0",
 		"@unocss/nuxt": "^0.53.1",
 		"@unocss/transformer-variant-group": "^0.53.1",
 		"@vueuse/core": "^10.1.2",
