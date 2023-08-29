@@ -11,7 +11,7 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"devDependencies": {
-		"@nuxt/eslint-config": "^0.1.1",
+		"@nuxt/eslint-config": "^0.2.0",
 		"@nuxtjs/critters": "^0.4.1",
 		"@unocss/eslint-config": "^0.53.1",
 		"@unocss/nuxt": "^0.53.1",
