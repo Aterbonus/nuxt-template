@@ -5,10 +5,9 @@
 * Editorconfig config + vscode autoformat on save config
 * Unocss with preset uno, icons, webfonts and transformer variant group
 * Linting and formatting configured
-	* Eslint + Prettier
-	* Eslint configured with rules to autoformat on save for nuxt/vue, unocss classes and prettier formatting
+	* Eslint
+	* Eslint configured with rules to autoformat on save for nuxt/vue, unocss classes
 * Vueuse
-* Critical CSS with Critters
 
 ## Setup
 
