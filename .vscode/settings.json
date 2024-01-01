@@ -1,10 +1,22 @@
 {
-  "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "files.associations": {
-    "*.css": "postcss"
-  },
-  "editor.formatOnSave": false
+	"eslint.experimental.useFlatConfig": true,
+	"prettier.enable": false,
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "never"
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"vue",
+		"html",
+		"markdown",
+		"json",
+		"jsonc",
+		"yaml",
+		"toml"
+	]
 }

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 	},
 	critters: {
 		config: {
-			// @ts-ignore
+			// @ts-expect-error false exists as an option, but the typing is wrong
 			preload: false
 		}
 	}
