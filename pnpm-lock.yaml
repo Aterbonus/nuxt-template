@@ -9,13 +9,13 @@ devDependencies:
     specifier: ^2.6.1
     version: 2.6.1(@unocss/eslint-plugin@0.58.3)(@vue/compiler-sfc@3.4.4)(eslint@8.56.0)(typescript@5.3.3)
   '@eslint/js':
-    specifier: ^8.56.0
-    version: 8.56.0
+    specifier: ^9.0.0
+    version: 9.0.0
   '@unocss/eslint-plugin':
     specifier: ^0.58.3
     version: 0.58.3(eslint@8.56.0)(typescript@5.3.3)
   '@unocss/nuxt':
-    specifier: 0.58.3
+    specifier: ^0.58.3
     version: 0.58.3(postcss@8.4.32)(vite@5.0.10)(webpack@5.89.0)
   '@unocss/transformer-variant-group':
     specifier: ^0.58.3
@@ -778,6 +778,11 @@ packages:
   /@eslint/js@8.56.0:
     resolution: {integrity: sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@eslint/js@9.0.0:
+    resolution: {integrity: sha512-RThY/MnKrhubF6+s1JflwUjPEsnCEmYCWwqa/aRISKWNXGZ9epUwft4bUMM35SdKF9xvBrLydAM1RDHd1Z//ZQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dev: true
 
   /@fastify/busboy@2.1.0:
