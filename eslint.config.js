@@ -1,12 +1,15 @@
 import antfu from '@antfu/eslint-config'
 
-export default antfu({
-	stylistic: {
-		indent: 'tab'
+export default antfu(
+	{
+		stylistic: {
+			indent: 'tab'
+		},
+		unocss: true
 	},
-	unocss: true
-}, {
-	rules: {
-		'style/comma-dangle': ['error', 'never']
+	{
+		rules: {
+			'style/comma-dangle': ['error', 'never']
+		}
 	}
-})
+)
