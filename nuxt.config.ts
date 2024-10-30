@@ -5,5 +5,6 @@ export default defineNuxtConfig({
 	modules: ['@unocss/nuxt', '@vueuse/nuxt'],
 	unocss: {
 		preflight: true
-	}
+	},
+	compatibilityDate: '2024-10-30'
 })
