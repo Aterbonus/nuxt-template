@@ -1,6 +1,7 @@
 {
 	"type": "module",
 	"private": true,
+	"packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
@@ -11,15 +12,15 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"devDependencies": {
-		"@antfu/eslint-config": "^3.8.0",
-		"@unocss/eslint-plugin": "^0.63.6",
-		"@unocss/nuxt": "^0.63.6",
-		"@unocss/transformer-variant-group": "^0.63.6",
-		"@vueuse/core": "^11.1.0",
-		"@vueuse/nuxt": "^11.1.0",
-		"eslint": "^9.13.0",
-		"nuxt": "^3.13.2",
-		"typescript": "^5.6.3"
-	},
-	"packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+		"@antfu/eslint-config": "^3.14.0",
+		"@unocss/eslint-plugin": "^65.4.2",
+		"@unocss/nuxt": "^65.4.2",
+		"@unocss/transformer-variant-group": "^65.4.2",
+		"@vueuse/core": "^12.4.0",
+		"@vueuse/nuxt": "^12.4.0",
+		"eslint": "^9.18.0",
+		"nuxt": "^3.15.2",
+		"typescript": "^5.7.3",
+		"unocss": "^65.4.2"
+	}
 }
