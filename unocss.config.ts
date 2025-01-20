@@ -17,11 +17,6 @@ export default defineConfig({
 	theme: {
 		container: {
 			center: true
-		},
-		breakpoints: {
-			sm: '640px',
-			md: '768px',
-			lg: '1140px'
 		}
 	}
 })
