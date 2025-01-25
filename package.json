@@ -12,7 +12,7 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"devDependencies": {
-		"@antfu/eslint-config": "^3.14.0",
+		"@antfu/eslint-config": "^4.0.0",
 		"@unocss/eslint-plugin": "^65.4.2",
 		"@unocss/nuxt": "^65.4.2",
 		"@unocss/transformer-variant-group": "^65.4.2",
