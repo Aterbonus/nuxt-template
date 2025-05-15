@@ -13,14 +13,14 @@
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^4.11.0",
-		"@unocss/eslint-plugin": "66.1.0-beta.8",
-		"@unocss/nuxt": "66.1.0-beta.8",
-		"@unocss/transformer-variant-group": "66.1.0-beta.8",
+		"@unocss/eslint-plugin": "66.1.2",
+		"@unocss/nuxt": "66.1.2",
+		"@unocss/transformer-variant-group": "66.1.2",
 		"@vueuse/core": "^13.0.0",
 		"@vueuse/nuxt": "^13.0.0",
 		"eslint": "^9.24.0",
 		"nuxt": "^3.16.2",
 		"typescript": "^5.8.3",
-		"unocss": "66.1.0-beta.8"
+		"unocss": "66.1.2"
 	}
 }
