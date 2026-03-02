@@ -19,7 +19,7 @@
 		"@vueuse/core": "^13.0.0",
 		"@vueuse/nuxt": "^13.0.0",
 		"eslint": "^9.24.0",
-		"nuxt": "^3.16.2",
+		"nuxt": "^4.0.0",
 		"typescript": "^5.8.3",
 		"unocss": "66.1.0-beta.8"
 	}
