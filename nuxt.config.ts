@@ -1,10 +1,8 @@
 export default defineNuxtConfig({
-	future: {
-		compatibilityVersion: 4
-	},
+	compatibilityDate: '2025-07-15',
+	devtools: { enabled: true },
 	modules: ['@unocss/nuxt', '@vueuse/nuxt'],
 	unocss: {
 		preflight: true
-	},
-	compatibilityDate: '2024-10-30'
+	}
 })
