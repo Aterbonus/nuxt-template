@@ -8,15 +8,15 @@ export default defineConfig({
 			fonts: {
 				sans: {
 					name: 'Lato',
-					weights: [400]
-				}
-			}
-		})
+					weights: [400],
+				},
+			},
+		}),
 	],
 	transformers: [transformerVariantGroup()],
 	theme: {
 		container: {
-			center: true
-		}
-	}
+			center: true,
+		},
+	},
 })

@@ -20,9 +20,7 @@
 		"@vueuse/nuxt": "^14.3.0",
 		"eslint": "^10.7.0",
 		"nuxt": "^4.5.0",
+		"typescript": "^6.0.3",
 		"unocss": "66.7.5"
-	},
-	"dependencies": {
-		"typescript": "6"
 	}
 }

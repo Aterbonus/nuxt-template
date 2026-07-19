@@ -3,13 +3,8 @@ import antfu from '@antfu/eslint-config'
 export default antfu(
 	{
 		stylistic: {
-			indent: 'tab'
+			indent: 'tab',
 		},
-		unocss: true
+		unocss: true,
 	},
-	{
-		rules: {
-			'style/comma-dangle': ['error', 'never']
-		}
-	}
 )
