@@ -1,8 +1,8 @@
-import { defineConfig, presetIcons, presetUno, presetWebFonts, transformerVariantGroup } from 'unocss'
+import { defineConfig, presetIcons, presetWebFonts, presetWind4, transformerVariantGroup } from 'unocss'
 
 export default defineConfig({
 	presets: [
-		presetUno(),
+		presetWind4(),
 		presetIcons(),
 		presetWebFonts({
 			fonts: {
