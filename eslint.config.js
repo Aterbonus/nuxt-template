@@ -11,7 +11,6 @@ export default antfu(
 	|| eslintPluginTailwindcss.configs.recommended,
 	{
 		settings: {
-			// Define the tailwindcss settings with the MANDATORY `cssConfigPath`
 			tailwindcss: {
 				cssConfigPath: './app/assets/css/main.css',
 			},
