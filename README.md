@@ -2,12 +2,13 @@
 
 ## Features
 
-* Editorconfig config + vscode autoformat on save config
-* Unocss with preset uno, icons, webfonts and transformer variant group
+* Nuxt 4 (Compatibility mode with Nuxt 5)
+* Nuxt UI
+* Vueuse
 * Linting and formatting configured
 	* Eslint
-	* Eslint configured with rules to autoformat on save for nuxt/vue, unocss classes
-* Vueuse
+	* Eslint configured with rules to autoformat on save for nuxt/vue, tailwind classes
+* Editorconfig config + vscode autoformat on save config
 
 ## Setup
 
@@ -46,4 +47,4 @@ Locally preview production build:
 pnpm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+Checkout the [deployment documentation](https://nuxt.com/docs/4.x/getting-started/deployment) for more information.
