@@ -12,15 +12,16 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"devDependencies": {
-		"@antfu/eslint-config": "^9.1.0",
-		"@unocss/eslint-plugin": "66.7.5",
-		"@unocss/nuxt": "66.7.5",
-		"@unocss/transformer-variant-group": "66.7.5",
-		"@vueuse/core": "^14.3.0",
-		"@vueuse/nuxt": "^14.3.0",
-		"eslint": "^10.7.0",
-		"nuxt": "^4.5.0",
-		"typescript": "^6.0.3",
-		"unocss": "66.7.5"
+		"@antfu/eslint-config": "^9.3.0",
+		"@vueuse/core": "^14.4.0",
+		"@vueuse/nuxt": "^14.4.0",
+		"eslint": "^10.9.1",
+		"eslint-plugin-tailwindcss": "^4.4.0",
+		"nuxt": "^4.5.2",
+		"typescript": "^6.0.3"
+	},
+	"dependencies": {
+		"@nuxt/ui": "^4.11.0",
+		"tailwindcss": "^4.3.3"
 	}
 }
