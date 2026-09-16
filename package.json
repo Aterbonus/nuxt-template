@@ -13,8 +13,8 @@
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^9.3.0",
-		"@vueuse/core": "^14.4.0",
-		"@vueuse/nuxt": "^14.4.0",
+		"@vueuse/core": "^15.0.0",
+		"@vueuse/nuxt": "^15.0.0",
 		"eslint": "^10.9.1",
 		"eslint-plugin-tailwindcss": "^4.4.0",
 		"nuxt": "^4.5.2",
