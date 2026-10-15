@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"private": true,
-	"packageManager": "pnpm@11.15.0+sha512.266f8957a30d2be6e9468e5e66bcdedd35a794175f71b067ba8504d686cce1d0c0f429b33c323c3c569ad4891e667574a49ff71d1b89a22cc66f13c65818c578",
+	"packageManager": "pnpm@11.28.6+sha512.55d90390c3b39042f1505a2697789f0256c6d95bb28bdd7cb731af1887c9f2629ef581acb9f4e4ec772024c8203c2aed22a03299b97103fdcf32668e905d0024",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
